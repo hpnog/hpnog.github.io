@@ -58,12 +58,19 @@ h6 {
   font-size: 2.5rem;
 }
 
-.mainTitle h3 {
-  font-size: 1.5rem;
+.mainTitle h2 {
+  font-size: 2rem;
+  max-width: 50rem;
 }
 
 .mainTitle h3 {
   font-size: 1.5rem;
+  max-width: 50rem;
+}
+
+.mainTitle h4 {
+  font-size: 1rem;
+  max-width: 50rem;
 }
 
 .singleBodyText p {
@@ -123,7 +130,19 @@ h6 {
   background-size: cover;
 }
 
+#feupLogo {
+  width: 10rem;
+  height: 100%;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+}
 
+#coventryLogo {
+  width: 10rem;
+  height: 100%;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+}
 
 #portrait {
   border-radius: 50%;
@@ -153,6 +172,13 @@ h6 {
 
 #feupBackground {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/feupBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#coventryBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/coventryBackground.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -343,23 +369,23 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer.footer .social-link {
   display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3.3rem;
+  font-size: 1.3rem;
+  background-color: #001F5B;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #000;
   text-decoration: none;
 }
 
