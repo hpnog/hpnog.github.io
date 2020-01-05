@@ -11,25 +11,20 @@ html {
 }
 
 body {
-  font-family: 'BlockheadFree';
+  font-family: 'Times New Roman';
 }
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 
+.btn-l {
+  padding: 0.7rem 1rem;
+}
+
 .content-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.content-section-heading h2 {
-  font-size: 3rem;
-}
-
-.content-section-heading h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
 }
 
 h1,
@@ -43,6 +38,40 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* Titles */
+.textBody {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 1em;
+  font-size: 0.9rem;
+}
+
+.mainTitle {
+  letter-spacing: 0.2rem;
+  padding: 0;
+  text-align: center;
+}
+
+.mainTitle h1 {
+  font-size: 2.5rem;
+}
+
+.mainTitle h3 {
+  font-size: 1.5rem;
+}
+
+.mainTitle h3 {
+  font-size: 1.5rem;
+}
+
+.singleBodyText p {
+  max-width: 50rem;
+}
+
+.btn {
+  letter-spacing: 0.15rem;
 }
 
 /* Map */
@@ -86,50 +115,15 @@ h6 {
 }
 
 .masthead {
-  min-height: 10rem;
-  max-height: 15rem;
-  position: relative;
-  display: table;
+  height: 20rem;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/oportoBackground.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.textBody {
-  font-family: 'Righteous';
-  text-align: justify;
-  text-justify: inter-word;
-  margin: 1em;
-  font-size: 0.75rem;
-}
 
-.mainTitle {
-  font-family: 'Righteous';
-  letter-spacing: 0.25rem;
-}
-
-.mainTitle h1 {
-  font-size: 2.5rem;
-  margin: 0;
-  padding: 0;
-}
-
-.mainTitle h3 {
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-}
 
 #portrait {
   border-radius: 50%;
@@ -145,28 +139,30 @@ h6 {
   justify-content: center;
 }
 
-.costomFlexTable .row .sideColumn {
+.row .sideColumn {
   margin-top: 1rem;
   max-width: 30rem;
 }
 
-#fabamaqSection {
+#fabamaqBackground {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/fabamaqBackground.png");
-  width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*
-  min-height: 10rem;
-  max-height: 15rem;
-  position: relative;
-  display: table;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  */
 }
 
+#feupBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/feupBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fabamaqBanner {
+  max-width: 20rem;
+  border-radius: 2rem;
+  margin: 1rem;
+}
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;

@@ -17,7 +17,7 @@
   <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <!--<link href="assets/css/googleapis_source_sans_pro.css" rel="stylesheet" type="text/css">-->
   <link href="assets/fonts/Righteous.css" rel="stylesheet" type="text/css">
-  
+
   <!-- Custom CSS -->
   <link href="assets/css/stylish-portfolio.css" rel="stylesheet">
 
@@ -54,58 +54,80 @@
 
   <!-- Header -->
   <header>
-    <div class="masthead d-flex"></div>
+    <div class="masthead"></div>
     <div class="overlay"></div>
   </header>
 
   <!-- About -->
   <section class="content-section bg-light" id="about">
-    <div class="row">
-        <div class="container text-center my-auto mainTitle">
-          <h1 class="">João Miguel Nogueira</h1>
-          <h3 class="">Software Engineer</h3>
-        </div>
-    </div>
     <div class="container text-center costomFlexTable">
       <div class="row">
-          <div class="container">
-            <img id="portrait" src="assets/images/personalPhoto.png">
-          </div>
+        <div class="container">
+          <img id="portrait" src="assets/images/personalPhoto.png">
+        </div>
       </div>
       <div class="row">
         <div>
-        <div class="sideColumn textBody">
-          <p>
-            I am a Game Developer at FABAMAQ, Sistemas Informáticos, 
-            SA, utilizing SCRUM for Agile Development of games in C++ and javascript languages.
-            <br/>
-            Recently concluded MIEIC (a five years Master Programme in Informatics and Computing 
-            Engineering) at FEUP (Faculdade de Engenharia da Universidade do Porto).
-            <br/>
-            I'm from a town called Vila Real and I moved to Porto back in 2013 when I started my 
-            studies at FEUP.
+          <div class="row">
+            <div class="container mainTitle">
+              <h1 class="">João Miguel Nogueira</h1>
+              <h3 class="">Software Engineer</h3>
+            </div>
+          </div>
+          <div class="sideColumn textBody">
+            <p>
+              Recently concluded MIEIC (a five years Master Programme in Informatics and Computing
+              Engineering) at FEUP (Faculdade de Engenharia da Universidade do Porto).
+              <br />
+              I'm from a town called Vila Real and I moved to Porto back in 2013 when I started my
+              studies at FEUP.
             </p>
           </div>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#fabamaqSection">Find out more!</a>
+          <a id="findMoreBtn" class="btn btn-dark btn-l js-scroll-trigger" href="#fabamaqSection">Find out more!</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- fabamaqSection -->
-  <section class="content-section" id="fabamaqSection">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
+  <section id="fabamaqSection">
+    <div id="fabamaqBackground" class="masthead"></div>
+    <div class="container content-section">
+      <div class="mainTitle">
+        <h2 class="mainTitle">Software Engineer @ Fabamaq</h2>
+        <div class="textBody costomFlexTable singleBodyText">
+          <p>
+            I am a Game Developer at FABAMAQ, Sistemas Informáticos,
+            SA, utilizing SCRUM for Agile Development of games in C++ and javascript languages.
+          </p>
+        </div>
+        <img id="fabamaqBanner" src="assets/images/fabamaqBanner.gif">
       </div>
-      <div class="row">
-        
-      </div>
+    </div>
     </div>
   </section>
 
-  <!-- Callout -->
+  <!-- B.Sc. + M.Sc. @ FEUP -->
+  <section id="fabamaqSection">
+    <div id="feupBackground" class="masthead"></div>
+    <div class="container content-section">
+      <div class="mainTitle">
+        <h2 class="mainTitle">B.Sc. + M.Sc. @ FEUP</h2>
+        <h3 class="mainTitle">Faculdade de Engenharia da Universidade do Porto</h3>
+        <div class="textBody costomFlexTable singleBodyText">
+          <p>
+            I am a Game Developer at FABAMAQ, Sistemas Informáticos,
+            SA, utilizing SCRUM for Agile Development of games in C++ and javascript languages.
+          </p>
+        </div>
+        <img id="fabamaqBanner" src="assets/images/fabamaqBanner.gif">
+      </div>
+    </div>
+    <div class="row">
+    </div>
+    </div>
+  </section>
+
   <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">Welcome to
@@ -119,7 +141,7 @@
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
-      <div class="content-section-heading text-center">
+      <div class="mainTitle text-center">
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
