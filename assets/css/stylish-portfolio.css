@@ -12,6 +12,12 @@ html {
 
 body {
   font-family: 'Times New Roman';
+  color: #333;
+}
+
+footer {
+  font-family: 'Times New Roman';
+  color: #333;
 }
 
 .btn-xl {
@@ -167,6 +173,26 @@ h6 {
   max-width: 30rem;
 }
 
+#about {
+  background-color: #d5dfe5;
+}
+
+#fabamaqSection {
+  background-color: #9eb3c2;
+}
+
+#feupSection {
+  background-color: #3f7cac;
+}
+
+#coventrySection {
+  background-color: #4c5c68;
+}
+
+footer {
+  background-color: #1985a1;;
+}
+
 #fabamaqBackground {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/fabamaqBackground.png");
   background-position: center center;
@@ -290,71 +316,62 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-item {
-  display: block;
+#portfolio {
+  background-color: #1985a1;
+}
+
+#portfolio .container-fluid {
+  max-width: 75rem;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  margin: 1rem;
   position: relative;
-  overflow: hidden;
-  max-width: 20rem;
-  margin: auto auto 1rem;
+  display: block;
+  overflow-y: hidden;
 }
 
-.portfolio-item .caption {
-  display: flex;
-  height: 100%;
+.repo {
+  object-fit: cover;
+  object-position: 0 0;
+  max-height: 15rem;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 0;
   bottom: 0;
-  z-index: 1;
-}
-
-.portfolio-item .caption .caption-content {
+  text-align: center;
+  opacity: 0;
   color: #fff;
-  margin: auto 2rem 2rem;
+  background: rgba(9, 149, 173, 0.8);
+  transition: opacity 0.50s ease;
+  text-align: center;
+
 }
 
-.portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-size: 0.85rem;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
-.portfolio-item .caption .caption-content p {
-  font-weight: 300;
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
+  margin: 1rem;
 }
 
-@media (min-width: 992px) {
-  .portfolio-item {
-    max-width: none;
-    margin: 0;
-  }
-  .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-  .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
 }
+
 
 footer.footer {
   padding-top: 2rem;
