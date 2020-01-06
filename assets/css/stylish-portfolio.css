@@ -321,7 +321,7 @@ footer {
 }
 
 #portfolio .container-fluid {
-  max-width: 75rem;
+  max-width: 80rem;
 }
 
 #portfolio .container-fluid .portfolio-box {
@@ -337,6 +337,11 @@ footer {
   max-height: 15rem;
   width: 100%;
   
+}
+
+#reposContainer {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
