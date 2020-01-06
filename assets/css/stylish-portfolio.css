@@ -11,12 +11,12 @@ html {
 }
 
 body {
-  font-family: 'Times New Roman';
+  font-family: 'Helvetica Neue';
   color: #333;
 }
 
 footer {
-  font-family: 'Times New Roman';
+  font-family: 'Helvetica Neue';
   color: #333;
 }
 
@@ -52,12 +52,17 @@ h6 {
   text-justify: inter-word;
   margin: 1em;
   font-size: 0.9rem;
+  font-family: 'Helvetica Neue';
+  color: #333;
 }
+
 
 .mainTitle {
   letter-spacing: 0.2rem;
   padding: 0;
   text-align: center;
+  font-family: 'Helvetica Neue';
+  color: #333;
 }
 
 .mainTitle h1 {
@@ -80,6 +85,8 @@ h6 {
 }
 
 .singleBodyText p {
+  letter-spacing: 0rem;
+  font-family: 'Helvetica Neue';
   max-width: 50rem;
 }
 
@@ -155,7 +162,9 @@ h6 {
 }
 
 #portrait {
-  border-radius: 50%;
+  border-width: 1rem;
+  border-color: grey;
+  border-radius: 20%;
   width: 14rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -171,26 +180,6 @@ h6 {
 .row .sideColumn {
   margin-top: 1rem;
   max-width: 30rem;
-}
-
-#about {
-  background-color: #d5dfe5;
-}
-
-#fabamaqSection {
-  background-color: #9eb3c2;
-}
-
-#feupSection {
-  background-color: #3f7cac;
-}
-
-#coventrySection {
-  background-color: #4c5c68;
-}
-
-footer {
-  background-color: #1985a1;;
 }
 
 #fabamaqBackground {
@@ -214,10 +203,17 @@ footer {
   background-size: cover;
 }
 
+#fabamaqBannerContainer {
+  width: 300px;
+  overflow:hidden;
+  object-fit: cover;
+}
+
 #fabamaqBanner {
-  max-width: 20rem;
+  width: 320px;
   border-radius: 2rem;
   margin: 1rem;
+  object-position: -10px 0;
 }
 /* Side Menu */
 #sidebar-wrapper {
@@ -317,7 +313,7 @@ footer {
 }
 
 #portfolio {
-  background-color: #1985a1;
+  background-color: #e0e0e0;
 }
 
 #portfolio .container-fluid {
@@ -356,20 +352,20 @@ footer {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(9, 149, 173, 0.8);
+  background: rgba(124, 124, 124, 0.8);
   transition: opacity 0.50s ease;
   text-align: center;
 
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1rem;
 }
 
@@ -389,13 +385,13 @@ footer.footer .social-link {
   width: 3rem;
   line-height: 3.3rem;
   font-size: 1.3rem;
-  background-color: #001F5B;
+  background-color: rgb(148, 148, 148);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #000;
+  background-color: rgb(77, 77, 77);
   text-decoration: none;
 }
 
