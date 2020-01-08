@@ -1,0 +1,457 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue';
+  color: #333;
+}
+
+footer {
+  font-family: 'Helvetica Neue';
+  color: #333;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.btn-l {
+  padding: 0.7rem 1rem;
+}
+
+.content-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Titles */
+.textBody {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 1em;
+  font-size: 0.9rem;
+  font-family: 'Helvetica Neue';
+  color: #333;
+}
+
+
+.mainTitle {
+  letter-spacing: 0.2rem;
+  padding: 0;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  color: #333;
+}
+
+.mainTitle h1 {
+  font-size: 2.5rem;
+}
+
+.mainTitle h2 {
+  font-size: 2rem;
+  max-width: 50rem;
+}
+
+.mainTitle h3 {
+  font-size: 1.5rem;
+  max-width: 50rem;
+}
+
+.mainTitle h4 {
+  font-size: 1rem;
+  max-width: 50rem;
+}
+
+.singleBodyText p {
+  letter-spacing: 0rem;
+  font-family: 'Helvetica Neue';
+  max-width: 50rem;
+}
+
+.btn {
+  letter-spacing: 0.15rem;
+}
+
+.col-sm-6 {
+
+}
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+.masthead {
+  height: 20rem;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/oportoBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feupLogo {
+  width: 10rem;
+  height: 100%;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+}
+
+#coventryLogo {
+  width: 10rem;
+  height: 100%;
+  margin-right: 2rem;
+  flex-wrap: wrap;
+}
+
+#portrait {
+  border-width: 1rem;
+  border-color: grey;
+  border-radius: 20%;
+  width: 14rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.costomFlexTable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row .sideColumn {
+  margin-top: 1rem;
+  max-width: 30rem;
+}
+
+#fabamaqBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/fabamaqBackground.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feupBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/feupBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#coventryBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/coventryBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fabamaqBannerContainer {
+  width: 300px;
+  overflow:hidden;
+  object-fit: cover;
+}
+
+#fabamaqBanner {
+  width: 320px;
+  border-radius: 2rem;
+  margin: 1rem;
+  object-position: -10px 0;
+}
+/* Side Menu */
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  transition: all 0.4s ease 0s;
+  transform: translateX(300px);
+  background: rgb(200, 200, 200);
+  border-left: 1px solid rgba(177, 177, 177, 0.1);
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  padding: 15px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(68, 68, 68, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 1.2rem;
+  background: rgba(52, 58, 64, 0.1);
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: rgb(75, 75, 75);
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#sidebar-wrapper.active {
+  right: 300px;
+  width: 300px;
+  transition: all 0.4s ease 0s;
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:focus, .menu-toggle:hover {
+  color: #fff;
+}
+
+.menu-toggle:hover {
+  background: #343a40;
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#portfolio {
+  background-color: #e0e0e0;
+}
+
+#portfolio .container-fluid {
+  max-width: 80rem;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  margin: 1rem;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 15rem;
+}
+
+.repo {
+  object-fit: cover;
+  object-position: 0 0;  
+}
+
+#reposContainer {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(124, 124, 124, 0.8);
+  transition: opacity 0.50s ease;
+  text-align: center;
+
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+#ubuntuLanCreatorGif {
+  transform: scale(1.8) translate(22%, 22%);
+}
+
+#jumpyjayImg {
+  transform: scale(1.2) translate(8%, 8%);
+}
+
+#compGif {
+  transform: scale(1.2) translate(8%, 8%);
+}
+
+footer.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3.3rem;
+  font-size: 1.3rem;
+  background-color: rgb(148, 148, 148);
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer.footer .social-link:hover {
+  background-color: rgb(77, 77, 77);
+  text-decoration: none;
+}
+
+a {
+  color: #1D809F;
+}
+
+a:hover, a:focus, a:active {
+  color: #155d74;
+}
+
+.btn-primary {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #155d74 !important;
+  border-color: #155d74 !important;
+}
+
+.btn-secondary {
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #ba9106 !important;
+  border-color: #ba9106 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #1D809F !important;
+}
+
+.text-primary {
+  color: #1D809F !important;
+}
+
+.text-secondary {
+  color: #ecb807 !important;
+}
