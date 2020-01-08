@@ -94,8 +94,8 @@ h6 {
   letter-spacing: 0.15rem;
 }
 
-.col-lg-4 {
-  
+.col-sm-6 {
+
 }
 
 /* Map */
@@ -324,15 +324,13 @@ h6 {
   margin: 1rem;
   position: relative;
   display: block;
-  overflow-y: hidden;
+  overflow: hidden;
+  height: 15rem;
 }
 
 .repo {
   object-fit: cover;
-  object-position: 0 0;
-  max-height: 15rem;
-  width: 100%;
-  
+  object-position: 0 0;  
 }
 
 #reposContainer {
@@ -373,6 +371,17 @@ h6 {
   opacity: 1;
 }
 
+#ubuntuLanCreatorGif {
+  transform: scale(1.8) translate(22%, 22%);
+}
+
+#jumpyjayImg {
+  transform: scale(1.2) translate(8%, 8%);
+}
+
+#compGif {
+  transform: scale(1.2) translate(8%, 8%);
+}
 
 footer.footer {
   padding-top: 2rem;
@@ -388,6 +397,7 @@ footer.footer .social-link {
   background-color: rgb(148, 148, 148);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 footer.footer .social-link:hover {
