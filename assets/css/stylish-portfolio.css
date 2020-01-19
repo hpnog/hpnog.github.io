@@ -139,7 +139,7 @@ h6 {
 }
 
 .masthead {
-  height: 20rem;
+  height: 15rem;
   width: 100%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/oportoBackground.jpg");
   background-position: center center;
@@ -373,6 +373,10 @@ h6 {
 
 #ubuntuLanCreatorGif {
   transform: scale(1.8) translate(22%, 22%);
+}
+
+#pathFindingProject {
+  transform: scale(1.25, 1.4) translate(0%, 15%);
 }
 
 #jumpyjayImg {
