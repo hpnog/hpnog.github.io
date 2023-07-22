@@ -141,7 +141,7 @@ h6 {
 .masthead {
   height: 15rem;
   width: 100%;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/oportoBackground.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/amsterdamBackground.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,6 +182,13 @@ h6 {
   max-width: 30rem;
 }
 
+#picnicBackground {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/picnicBackground.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #fabamaqBackground {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/fabamaqBackground.png");
   background-position: center center;
@@ -215,6 +222,19 @@ h6 {
   margin: 1rem;
   object-position: -10px 0;
 }
+
+#picnicBannerContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#picnicBanner {
+  width: 10em;
+  margin: 1rem;
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
